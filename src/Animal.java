@@ -376,7 +376,7 @@ public class Animal extends Organism {
         Animal newAnimal;
         switch (type) {
             case 'Y':
-                newAnimal = new Giraffe(x, y, this.world);
+                newAnimal = new Bear(x, y, this.world);
                 break;
             case 'K':
                 newAnimal = new Mosquito(x, y, this.world);
